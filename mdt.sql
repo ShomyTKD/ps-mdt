@@ -133,4 +133,4 @@ CREATE TABLE IF NOT EXISTS `mdt_clocking` (
   `total_time` int(10) NOT NULL DEFAULT '0',
   PRIMARY KEY (`user_id`) USING BTREE,
   KEY `id` (`id`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=7 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
